@@ -128,7 +128,6 @@ header .heder_bottom ul li a:hover:after {
 }
 
 header .heder_bottom .second_block li a {
-    font-size: 24px;
     color: black;
     display: block;
     transition: .3s;
@@ -145,4 +144,92 @@ header .heder_bottom .second_block li a {
 header .heder_bottom .second_block li a:hover {
     background-color: black;
     color: #fa090a;
+}
+
+.get_the {
+    background-color: #010006;
+    text-align: center;
+}
+
+section h2 {
+    color: white;
+    font-size: 19px;
+    padding-top: 76px;
+    padding-bottom: 39px;
+    border-top: solid 1px #88888b;
+    font-family: 'Metropolis';
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.get_the input {
+    font-family: 'Metropolis';
+    font-weight: 300;
+    font-size: 17px;
+    width: 390px;
+    height: 40px;
+    background-color: white;
+    color: #959595;
+    border: none;
+    margin: 0 17px;
+}
+
+.get_the button {
+    font-family: 'Metropolis';
+    font-size: 20px;
+    width: 310px;
+    height: 50px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    margin: 0 17px;
+}
+
+.get_the form {
+    padding-bottom: 49px;
+}
+
+footer section {
+    background-color: #252525;
+    border-top: solid 1px #464647;
+    border-bottom: solid 1px #464647;
+}
+
+.footer_all {
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 49px;
+    padding-bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    display: inline-block;
+
+}
+
+footer ul li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: 'Metropolis';
+    padding-bottom: 25px;
+}
+
+footer img {
+    width: 70%;
+}
+
+.social {
+    display: inline-block;
+    font-size: 32px;
+    color: black;
+    background-color: #fa090a;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-left: 13px;
+    line-height: 50px;
+    padding: 0;
 }
