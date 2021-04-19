@@ -172,6 +172,8 @@ section h2 {
     color: #959595;
     border: none;
     margin: 0 17px;
+    padding-left: 15px;
+    box-sizing: border-box;
 }
 
 .get_the button {
