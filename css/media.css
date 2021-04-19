@@ -1,0 +1,38 @@
+/*
+320px
+
+
+360px
+
+
+375px
+
+
+414px
+
+
+768px
+
+
+
+992px
+
+
+1024px
+*/
+
+@media only screen and (max-width: 992px) {
+    header form{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header form{
+        background-color: green;
+    }
+}
+@media only screen and (max-width: 414px) {
+    header form{
+        background-color: yellow;
+    }
+}
