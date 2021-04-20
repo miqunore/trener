@@ -199,6 +199,12 @@ section h2 {
     border: none;
     margin: 0 17px;
     border-radius: 2px;
+    transition: .3s;
+}
+
+.get_the button:hover {
+    background-color: #f76969;
+    cursor: pointer;
 }
 
 .get_the button:focus {
@@ -235,13 +241,18 @@ footer ul li a {
     font-size: 14px;
     font-family: 'Metropolis';
     padding-bottom: 25px;
+    transition: .3s;
+}
+
+footer ul li a:hover {
+    color: #b6b6b6;
 }
 
 footer img {
     width: 250px;
 }
 
-.social {
+.footer_all .social {
     display: inline-block;
     font-size: 32px;
     color: black;
@@ -252,4 +263,10 @@ footer img {
     margin-left: 13px;
     line-height: 50px;
     padding: 0;
+    transition: .3s;
+}
+
+.footer_all .social:hover {
+    background-color: black;
+    color: #fa090a;
 }
