@@ -32,7 +32,7 @@
         margin-bottom: 10px;
     }
 
-    header .container, .heder_bottom {
+    header .container img, .heder_bottom nav {
         margin-left: 12px;
     }
 }
@@ -113,7 +113,7 @@
         width: 30px;
     }
 
-    header .container, .heder_bottom {
+    header .container img, .heder_bottom nav {
         margin-left: 0;
     }
 }
