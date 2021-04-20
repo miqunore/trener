@@ -19,20 +19,101 @@
 
 
 1024px
+
 */
 
-@media only screen and (max-width: 992px) {
-    header form{
-        background-color: red;
+@media only screen and (max-width: 1024px) {
+
+    header .container ul li {
+        margin-bottom: 10px;
+    }
+
+    .second_block li {
+        margin-bottom: 10px;
     }
 }
+
 @media only screen and (max-width: 768px) {
-    header form{
-        background-color: green;
+
+    .get_the input {
+        margin-bottom: 10px;
+    }
+
+    .footer_all {
+        display: block;
+    }
+
+    footer ul li {
+        display: block;
+        text-align: center;
+    }
+
+    footer ul li a {
+        padding-top: 10px;
+        padding-bottom: 0;
     }
 }
+
 @media only screen and (max-width: 414px) {
-    header form{
-        background-color: yellow;
+
+    header .container .logo {
+        text-align: center;
+        display: block;
+    }
+
+    header .heder_bottom {
+        display: block;
+        text-align: center;
+    }
+
+    header .container {
+        display: block;
+    }
+
+    .get_the input {
+
+        width: 250px;
+        height: 35px;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .get_the button {
+
+        width: 200px;
+        height: 35px;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .social {
+        font-size: 17px;
+        width: 25px;
+        height: 25px;
+        margin-left: 13px;
+        line-height: 27px;
+    }
+    header .container {
+        text-align: center;
+    }
+
+    header .container ul li {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    header form input {
+        width: 265px;
+    }
+
+    header form button {
+        width: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    header .container .logo img {
+        width: 300px;
     }
 }
