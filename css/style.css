@@ -18,7 +18,10 @@
 }
 
 header {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
+   position: fixed;
+   width: 100%; 
+
 }
 
 header section {
@@ -269,4 +272,9 @@ footer img {
 .footer_all .social:hover {
     background-color: black;
     color: #fa090a;
+}
+
+.page_title {
+
+    text-align: center;
 }
